@@ -1,0 +1,19 @@
+{
+    "name": "Python (FastAPI) & MongoDB",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ritwickdey.liveserver",
+                "mongodb.mongodb-vscode",
+                "ms-python.python",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    },
+    "forwardPorts": [
+        5000
+    ]
+}
